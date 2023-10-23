@@ -15,7 +15,7 @@ document.querySelector('#search-button').onclick = () =>
       searchForm.classList.toggle('active');
       searchBox.focus();
       e.preventDefault();
-}
+};
 
 
 // Click outside of the element
