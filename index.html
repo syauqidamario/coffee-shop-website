@@ -106,7 +106,7 @@
                   <div class="product-card">
                         <div class="product-icons">
                               <a href="#"><i data-feather="shopping-cart"></i></a>
-                              <a href="#"><i data-feather="eye"></i></a>
+                              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
                         </div>
                         <div class="product-image">
                               <img src="images/products/coffee-bean.png" alt="Product 1">
@@ -127,7 +127,7 @@
                   <div class="product-card">
                         <div class="product-icons">
                               <a href="#"><i data-feather="shopping-cart"></i></a>
-                              <a href="#"><i data-feather="eye"></i></a>
+                              <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
                         </div>
                         <div class="product-image">
                               <img src="images/products/coffee-bean.png" alt="Product 1">
@@ -200,6 +200,29 @@
                   <p>Created by <a href="">shishawkourai</a>. |&copy; 2023.</p>
             </div>
       </footer>
+
+      <!--Modal Box Item Detail start-->
+      <div class="modal" id="item-detail-modal">
+            <div class="modal-container">
+                  <a href="#" class="close-icon"><i data-feather="X"></i></a>
+                  <div class="modal-content">
+                        <img src="images/products/coffee-bean.png" alt="Product 1">
+                        <div class="product-content">
+                              <h3>Product 1</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque, doloribus ab est cum qui, assumenda quod, pariatur quas tempora sequi dolores! Distinctio, doloribus ratione?</p>
+                              <div class="product-stars">
+                                    <i data-feather="star" class="star-full"></i>
+                                    <i data-feather="star" class="star-full"></i>
+                                    <i data-feather="star" class="star-full"></i>
+                                    <i data-feather="star" class="star-full"></i>
+                                    <i data-feather="star"></i>
+                              </div>
+                              <div class="product-price">IDR 30K <span> IDR 55K </span></div>
+                                    <a href="#"><i data-feather="shopping-cart"></i><span>Add to Cart</span></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <script>
             feather.replace();
