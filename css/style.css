@@ -267,9 +267,9 @@ body{
 
 .about .row .about-img img{
       width:100%;
-      /* -webkit-mask-image:url('../images/splat.svg');
+      -webkit-mask-image:url('../images/splat.svg');
       -webkit-mask-size:50%;
-      -webkit-mask-repeat:no-repeat; */
+      -webkit-mask-repeat:no-repeat;
 }
 
 .about .row .content{
